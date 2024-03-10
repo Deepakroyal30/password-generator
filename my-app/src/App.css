@@ -1,0 +1,54 @@
+
+h1{
+  text-align: center;
+}
+.form{
+  width: 100%;
+  margin: 1% 0;
+}
+.Div1{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+}
+.Div1 input{
+  width: calc(100% - 40px);
+}
+.Div1 button {
+  padding: 0;
+  border: 0.8px solid black;
+  transition: all 0.2s ease-in-out; /* Adjust the transition duration as needed */
+}
+
+.Div1 button img {
+  height: 40px;
+  padding: 0;
+  background-color: rgba(0, 0, 255, 0.51);
+}
+
+.Div1 button:active {
+  transform: scale(0.8); /* Scale down to 30% of its original size */
+}
+.Div2 {
+  display: flex;
+  justify-content: flex-end;
+}
+.Div2 input{
+  margin-left: 30px;
+}
+.Generate{
+  width: 100%;
+  margin-top: 50px;
+  height: 50px;
+  background-color: #116bb4;
+  border: none;
+  color: white;
+  font-weight: 500;
+  transition: all 0.7s ease-in;
+
+}
+.Generate:hover{
+  background-color: green;
+}
